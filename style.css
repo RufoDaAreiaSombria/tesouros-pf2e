@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'pf';
+    src: url('fontes/TarocaRegular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'maior';
+    src: url('fontes/GinTest-Regular.otf') format('truetype');
+}
+@font-face {
+    font-family: 'menor';
+    src: url('fontes/Sabon.ttf') format('truetype');
+}
+
+:root {
+    --vermelho: #4f0807;
+    --amarelo: #e8c696;
+    --beje: #efece7;
+    --azul: #02256e;
+    --verde: #627862;
+    --marrom: #573a30;
+}
+
+html, body {
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+header {
+    font-family: 'pf';
+}
