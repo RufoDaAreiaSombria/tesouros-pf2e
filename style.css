@@ -27,6 +27,113 @@ html, body {
     margin: 0 auto;
 }
 
+h1 {
+    padding: 7px;
+    margin: 0 auto;
+}
+
 header {
     font-family: 'pf';
+    color: var(--vermelho);
+    text-shadow: 
+    1px 1px 0 var(--amarelo),   /* Sombra para baixo-direita */
+    -1px -1px 0 var(--amarelo),  /* Sombra para cima-esquerda */
+    1px -1px 0 var(--amarelo),   /* Sombra para cima-direita */
+    -1px 1px 0 var(--amarelo);   /* Sombra para baixo-esquerda */
+    background-color: var(--beje);
+    border: 3px solid var(--vermelho);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.404);
+    text-align: center;
+    width: 600px;
+    margin: 22px auto;
+}
+
+body {
+    background-image: url('imagens/bg-esmeralda.png');
+    background-size: 100%;
+    background-color: var(--beje);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    background-color: var(--beje);
+    width: 500px;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+    border: 3px solid var(--vermelho);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+}
+
+select, input {
+    height: 25px;
+    text-align: center;
+    color: var(--vermelho);
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: var(--beje);
+    border-radius: 5px;
+    font-family: 'maior';
+    border: 2px solid var(--vermelho);
+    padding-top: 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.404);
+}
+
+select, input {
+    margin-top: 0px;
+}
+
+select:hover, input:hover {
+    background-color: rgb(150, 150, 150);
+}
+
+option {
+    font-weight: bold;
+}
+
+input#Gerar, select {
+    width: 75px;
+}
+
+select#dificuldade {
+    width: 100px;
+}
+
+spam#instrução {
+    font-family: 'maior';
+    color: var(--vermelho);
+}
+
+div {
+    padding: 15px;
+}
+
+div#resultado {
+    font-family: 'menor';
+}
+
+footer {
+    background-color: var(--beje);
+    text-align: center;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.404);
+    max-width: 80%;
+    border: 3px solid var(--vermelho);
+    font-family: 'menor';
+    padding: 5px 0px 5px 0px;
+}
+
+footer > p, footer > h3 {
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'maior';
+    color: var(--vermelho);
 }

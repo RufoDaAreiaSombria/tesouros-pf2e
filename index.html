@@ -13,8 +13,8 @@
         <h1>Gerador de Tesouros PF2e</h1>
     </header>
     <main>
-        <div>
-            Selecione o ND e a dificuldade do encontro: <br>
+        <div id="botões">
+            <spam id="instrução">Selecione o ND e a dificuldade do encontro:</spam> <br>
             <select name="nd" id="nd">
                 <option value="ND 1">ND 1</option>
                 <option value="ND 2">ND 2</option>
@@ -45,7 +45,7 @@
             </select>
             <input type="button" value="Gerar" id="Gerar" onclick="gerar()">
         </div>
-        <div>
+        <div id="resultado">
             Aqui vai o tesouro que gerar
         </div>
     </main>
