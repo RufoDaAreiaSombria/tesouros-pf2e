@@ -103,7 +103,7 @@ select#dificuldade {
     width: 100px;
 }
 
-spam#instrução {
+span#instrução {
     font-family: 'maior';
     color: var(--vermelho);
 }
