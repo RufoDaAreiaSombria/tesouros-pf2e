@@ -32,9 +32,21 @@ O gerador é atualizado com base no <a href="https://2e.aonprd.com">Archive of N
 <li>Itens cujo preço ultrapassa o orçamento extremo do seu nível foram realocados para ND mais altos.</li>
 </ul>
 </p>
+<p>
+<h1>Quadrinho Lateral</h1>
+Esse quadrinho lateral possui algumas modificações que podem ser interessantes dependendo do estilo de mestragem ou de recompensa que o mestre queira dar.
+
+<h2>Multiplicador</h2>
+Essencialmente aumenta o tamanho da recompensa gerada. Muitas vezes nós podemos simplesmente passar por marés de azar intermináveis, onde, por mais que consigamos muitas recompensas, nada vai ser exatamente útil ou do nosso agrado, optando por vender tudo. Vendendo tudo, nós na prática recebemos apenas metade da recompensa proposta, o que é um belo prejuízo. Por conta disso, o seletor de Multiplicador essencialmente aumenta a recompensa final em 50% ou em 2x.
+<h2>Filtros de Raridade</h2>
+Dependendo da sua campanha ou do tipo de encontro que aconteceu, muitas vezes itens incomuns e raros podem não ser interessantes ou condizentes com a situação. Afinal, itens incomuns e raros são itens que dependem do aval do mestre para serem conseguidos de alguma forma. Ao marcar as opções no quadrinho, itens de raridade incomum ou raro não serão gerados como recompensa.
+</p>
 
 <p>
 <h1>Changelog</h1>
+<h3>Log #09 | 06/02/2025</h3>
+- Adicionado o quadrinho lateral com o multiplicador de recompensa e filtros de raridade.
+
 <h3>Log #08 | 06/02/2025</h3>
 - Adicionado um README.
 
