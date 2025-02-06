@@ -7,6 +7,7 @@ function rolldice(min, max) {
 
 nd = document.getElementById('nd')
 dificuldade = document.getElementById('dificuldade')
+multiplicador = document.getElementById('multiplicador')
 
 tabela = {
   1: { Low: 13, Moderate: 18, Severe: 26, Extreme: 35 },
@@ -4259,6 +4260,13 @@ function gerar() {
 function budget(nd, dificuldade) {
 
   let budget = tabela[nd][dificuldade];
+  multi = multiplicador.value
+  if (Number(multi) === 5) {
+    budget = budget * 1.5
+  }
+  if (Number(multi) === 2) {
+    budget = budget * 2
+  }
   rolltable(budget)
 }
 
@@ -4279,9 +4287,20 @@ function rolltable(po) {
   } else {
     ajuste = window['itens' + (Number(nivel) + 1)];
   }
-  tesouroRolado = rolldice(1, ajuste.length)
-  let itemEscolhido = ajuste[tesouroRolado - 1]
+
+  let temraro = document.getElementById('raro').checked
+  let temincomum = document.getElementById('incomum').checked
+  // Filtrando os itens com base nas checkboxes
+  let itensFiltrados = ajuste.filter(item => {
+    if (temincomum && item[2] === "Uncommon") return false;
+    if (temraro && item[2] === "Rare") return false;
+    return true;
+  });
+
+  tesouroRolado = rolldice(1, itensFiltrados.length)
+  let itemEscolhido = itensFiltrados[tesouroRolado - 1]
   nivelMin = window['itens' + (Number(nivel) - 1)]
+
   if (po < nivelMin[0][1]) {
     resultado.innerHTML = resultado.innerHTML + `e <strong>${po} PO</strong>.`
     return;

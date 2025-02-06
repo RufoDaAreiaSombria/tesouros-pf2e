@@ -137,3 +137,38 @@ h3 {
     font-family: 'maior';
     color: var(--vermelho);
 }
+
+aside {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    background-color: var(--beje);
+    border: 3px solid var(--vermelho);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.404);
+    width: 100px;
+    height: 200px;
+    font-family: "maior";
+    text-align: center;
+    padding: 10px;
+    line-height: 1.6;
+    color: var(--vermelho);
+}
+
+span#idraro {
+    color: #0c1466;
+    font-weight: bold;
+}
+
+span#idincomum {
+    color: #c45500;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    accent-color: var(--vermelho); /* Usa a variável da borda */
+    transform: scale(1.2);
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+}
