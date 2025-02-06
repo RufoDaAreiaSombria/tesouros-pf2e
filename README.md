@@ -14,7 +14,7 @@ Sou Rufo da Areia Sombria, mas por favor, apenas Rufo. Este é um gerador de tes
 <h1>Como funciona?</h1>
 O gerador utiliza a <strong>Tabela 5-3: Treasure by Encounter</strong>, presente no <i>GM Core</i>, página 81.
 <br>
-<img src="https://imgur.com/a/VhFfxSI" alt="Tabela 5-3">
+<img src="https://imgur.com/uAqSeBC" alt="Tabela 5-3">
 
 <br><br>
 Para gerar um tesouro, basta selecionar o ND (nível de desafio) e a dificuldade do encontro no site. O sistema calculará o valor total de acordo com a tabela.  
