@@ -51,7 +51,7 @@ header {
 
 body {
     background-image: url('imagens/bg-esmeralda.png');
-    background-size: 100%;
+    background-size: cover;
     background-color: var(--beje);
     background-position: center top;
     background-repeat: no-repeat;
