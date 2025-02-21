@@ -44,6 +44,8 @@ Dependendo da sua campanha ou do tipo de encontro que aconteceu, muitas vezes it
 
 <p>
 <h1>Changelog</h1>
+<h3> Log #10 | 21/02/2025</h3>
+- O site está mais responsivo a tamanhos de telas diferentes.
 <h3>Log #09 | 06/02/2025</h3>
 - Adicionado o quadrinho lateral com o multiplicador de recompensa e filtros de raridade.
 
