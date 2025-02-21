@@ -53,6 +53,6 @@ Dependendo da sua campanha ou do tipo de encontro que aconteceu, muitas vezes it
 - Adicionado um README.
 
 <h3>Log #07 | 05/02/2025</h3>
-- Site lançado na versão básica. Último livro atualizado: <i>War of the Immortals</i>.
+- Site lançado na versão básica. Último livro atualizado: <i>War of the Immortals</i>. Entretanto, itens com o traço mítico não estão disponíveis nos tesouros.
 </p>
 </div>
