@@ -11,6 +11,13 @@
     <header>
         <h1>Gerador de Tesouros PF2e</h1>
     </header>
+    <section id="titulocassino">
+        <h1>Cassino do Sued</h1>
+    </section>
+    <div id="escolhas">
+        <input type="button" value="Gerador de Tesouros" id="botãoTesouros" onclick="botãoTesouros()">
+        <input type="button" value="Gerador de Magias" id="botãoMagias" onclick="botãoMagias()">
+    </div>
     <main>
         <div id="botões">
             <span id="instrução">Selecione o ND e a dificuldade do encontro:</span> <br>
@@ -48,8 +55,45 @@
             Aqui vai o tesouro que gerar
         </div>
     </main>
+    <section id="cassino">
+        <div id="botõesmágicos">
+            <span id="instrução">Selecione os ranks e as categorias:</span> <br>
+            <label for="rank1">1</label>
+            <input type="checkbox" name="rank1" id="rank1" checked>
+            <label for="rank2">2</label>
+            <input type="checkbox" name="rank2" id="rank2" checked>
+            <label for="rank3">3</label>
+            <input type="checkbox" name="rank3" id="rank3" checked>
+            <label for="rank4">4</label>
+            <input type="checkbox" name="rank4" id="rank4" checked>
+            <label for="rank5">5</label>
+            <input type="checkbox" name="rank5" id="rank5" checked>
+            <label for="rank6">6</label>
+            <input type="checkbox" name="rank6" id="rank6" checked>
+            <label for="rank7">7</label>
+            <input type="checkbox" name="rank7" id="rank7" checked>
+            <label for="rank8">8</label>
+            <input type="checkbox" name="rank8" id="rank8" checked>
+            <label for="rank9">9</label>
+            <input type="checkbox" name="rank9" id="rank9" checked>
+            <label for="rank10">10</label>
+            <input type="checkbox" name="rank10" id="rank10" checked> <br>
+            <label for="arcana">Arcana</label>
+            <input type="checkbox" name="arcane" id="arcane" checked>
+            <label for="divina">Divina</label>
+            <input type="checkbox" name="divine" id="divine" checked>
+            <label for="oculta">Oculta</label>
+            <input type="checkbox" name="occult" id="occult" checked>
+            <label for="primal">Primal</label>
+            <input type="checkbox" name="primal" id="primal" checked> <br>
+            <input type="button" value="Gerar" id="Gerar" onclick="gerarMagia()">
+        </div>
+        <div id="resultadomagia">
+            Aqui vai o tesouro que gerar
+        </div>
+    </section>
     <aside>
-        <span>Multiplicador:</span>
+        <span id="multi">Multiplicador:</span>
         <select name="multiplicador" id="multiplicador">
             <option value="1">1x</option>
             <option value="5">1.5x</option>

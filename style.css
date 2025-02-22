@@ -118,7 +118,7 @@ h1 {
     margin: 0 auto;
 }
 
-header {
+header, section#titulocassino {
     font-family: 'pf';
     color: var(--vermelho);
     text-shadow: 
@@ -145,7 +145,7 @@ body {
     background-attachment: fixed;
 }
 
-main {
+main, section#cassino {
     background-color: var(--beje);
     width: 500px;
     max-width: 70%;
@@ -258,4 +258,28 @@ input[type="checkbox"] {
     cursor: pointer;
     outline: none;
     box-shadow: none;
+    vertical-align: middle;
+}
+
+div#escolhas {
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+}
+
+div#botõesmágicos {
+    font-family: "maior";
+    color: var(--vermelho);
+}
+
+section#titulocassino > h1 {
+    font-size: 2em;
+}
+
+section#titulocassino, #cassino {
+    display: none
+}
+
+div#resultadomagia {
+    font-size: 1.2em;
 }
