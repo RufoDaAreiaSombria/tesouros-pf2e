@@ -24,7 +24,7 @@ A partir desse valor, o gerador seleciona aleatoriamente itens de até um nível
 
 <p>
 <h1>Cassino do Sued</h1>
-Em homenagem a um jogador de uma das mesas em que participo, no qual o personagem sempre buscava por pergaminhos de magia aleatórios em seu tempo livre, o Cassino do Sued foi inalgurado, podendo ser acessado atravez do botão <strong>Gerador de Magia</strong> que fica abaixo do título do site. Essa área do site serve para gerar magias de forma aleatória, afinal as varinhas mágicas e pergaminhos conseguidos nas rolagens de tesouro são genéricos.
+Em homenagem a um jogador de uma das mesas em que participo, no qual o personagem sempre buscava por pergaminhos de magia aleatórios em seu tempo livre, o Cassino do Sued foi inaugurado, podendo ser acessado através do botão <strong>Gerador de Magia</strong> que fica abaixo do título do site. Essa área do site serve para gerar magias de forma aleatória, afinal as varinhas mágicas e pergaminhos conseguidos nas rolagens de tesouro são genéricos.
 <br><br>
 Para gerar uma magia, deixe marcadas apenas as caixas com o rank referente ao nível das magias que você quer rolar. Em seguida, marque apenas as tradições que você quer que a magia em questão seja. Por exemplo, ao marcar as caixas <strong>3</strong>, <strong>4</strong> e <strong>5</strong>, junto com as caixas <strong>Arcano</strong> e <strong>Primal</strong>, a magia gerada será de rank 3, 4 ou 5, da tradição Arcana ou Primal (a magia gerada não necessariamente pertencerá ás duas tradições). 
 </p>
