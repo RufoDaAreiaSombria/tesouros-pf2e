@@ -51,6 +51,8 @@ Dependendo da sua campanha ou do tipo de encontro que aconteceu, muitas vezes it
 
 <p>
 <h1>Changelog</h1>
+<h3>Log #12 | 16/04/2025</h3>
+- Adicionado o conteúdo dos livros Divine Misteries, Rival Academies e NPC Core nas rolagens de tesouros e Cassino do Sued.
 <h3>Log #11 | 22/02/2025</h3>
 - Adicionado o Cassino do Sued para gerar magias aleatórias. Abraço Sadot! ❤
 <h3>Log #10 | 21/02/2025</h3>
