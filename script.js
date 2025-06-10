@@ -35,6 +35,15 @@ function botãoMagias() {
   });
 }
 
+function integrarHack() {
+  const secao = document.getElementById("secreto");
+  if (secao.style.display === "none") {
+    secao.style.display = "block"; // mostra
+  } else {
+    secao.style.display = "none"; // esconde
+  }
+}
+
 nd = document.getElementById('nd')
 dificuldade = document.getElementById('dificuldade')
 multiplicador = document.getElementById('multiplicador')
@@ -5502,7 +5511,7 @@ function gerar() {
   let difval = dificuldade.value
   resultado.innerHTML = 'Nesse loot você encontrou um '
   budget(ndval, difval)
-  }
+}
 
 function budget(nd, dificuldade) {
 
@@ -5603,4 +5612,23 @@ function gerarMagia() {
   } else {
     document.getElementById('resultadomagia').innerHTML = "Nenhuma magia atende aos critérios!";
   }
+}
+
+function hackear() {
+  const itemHackeado = document.getElementsByName("pesquisaitem")[0].value.trim().toLowerCase()
+  let tentativas = 0
+  hackeando()
+
+  function hackeando() {
+    gerar()
+    tentativas++
+    const resultadoAtual = document.getElementById("resultado").textContent.trim().toLowerCase()
+
+    if (!resultadoAtual.includes(itemHackeado)) {
+      setTimeout(hackeando(), 50)
+    } else {
+      document.getElementById("contador").textContent = tentativas
+    }
+  }
+
 }

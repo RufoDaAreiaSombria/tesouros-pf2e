@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Gerador de Tesouros PF2e</h1>
+        <h1>Gerador de Tesouros <button class="botao-p" onclick="integrarHack()">P</button>F2e</h1>
     </header>
     <section id="titulocassino">
         <h1>Cassino do Sued</h1>
@@ -104,6 +104,12 @@
         <label for="raro">Ignorar <span id="idraro">Rare?</span></label>
         <input type="checkbox" name="raro" id="raro"> <br>
     </aside>
+    <section id="secreto">
+        <span id="multi">Hack</span>
+        <input type="text" name="pesquisaitem" placeholder="Item">
+        <input type="button" id="hackear" value="Hackear" onclick="hackear()">
+        Contador: <span id="contador">0</span>
+    </section>
     <footer>
         <h3><em>Feito por Rufo da Areia Sombria<br>Discord: @zerademanti</em></h3>
         <p>

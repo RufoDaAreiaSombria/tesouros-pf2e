@@ -136,6 +136,24 @@ header, section#titulocassino {
     margin: 22px auto;
 }
 
+.botao-p {
+    font-family: 'pf';
+    color: var(--vermelho);
+    text-shadow: 
+    1px 1px 0 var(--amarelo),   /* Sombra para baixo-direita */
+    -1px -1px 0 var(--amarelo),  /* Sombra para cima-esquerda */
+    1px -1px 0 var(--amarelo),   /* Sombra para cima-direita */
+    -1px 1px 0 var(--amarelo);   /* Sombra para baixo-esquerda */
+    background-color: var(--beje);
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-image: url('imagens/bg-esmeralda.png');
     background-size: cover;
@@ -282,4 +300,30 @@ section#titulocassino, #cassino {
 
 div#resultadomagia {
     font-size: 1.2em;
+}
+
+section#secreto {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    background-color: var(--beje);
+    border: 3px solid var(--vermelho);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.404);
+    width: 100px;
+    height: 100px;
+    font-family: "maior";
+    text-align: center;
+    padding: 10px;
+    line-height: 1.6;
+    color: var(--vermelho);
+}
+
+input[type="text"] {
+    width: 90px;
+    margin-bottom: 3px;
+    font-family: "menor";
+    font-size: 0.8em;
+    color: black;
 }
