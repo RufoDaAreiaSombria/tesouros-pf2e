@@ -51,6 +51,8 @@ Dependendo da sua campanha ou do tipo de encontro que aconteceu, muitas vezes it
 
 <p>
 <h1>Changelog</h1>
+<h3>Log #15 | 09/08/2025</h3>
+- Adicionado o conteúdo de Battlecry!, Adventure Paths 213 até 215 e Claws of the Tyrant.
 <h3>Log #14 | 10/06/2025</h3>
 - Adicionado o conteúdo de Shining Kingdoms nas rolagens de tesouros e Cassino do Sued.
 <h3>Log #13 | 12/05/2025</h3>
